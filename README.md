@@ -1,7 +1,7 @@
 # SNPFrequency
 ## Analysis of the SNP frequency in given genomic intervals
 
-This tool extracts the SNP frequency per 1 kb of regions defined in a bed from a file containing genetic variants. The tool calculates the sum of SNPs per region specified in a bed file and then divides that by the length of the region, resulting in a SNP frequency (SNP/1 kb) for every region of interest. 
+This tool extracts the SNP frequency per 1 kb of defined regions of interest from a file specifyinga called genetic variants. The tool calculates the sum of SNPs per region specified in a bed file and then divides that by the length of the region, resulting in a SNP frequency (SNP/1 kb) for every region of interest.
 
 ## Usage
 The script is based on Perl and can be executed from a Linux command terminal. It does not require any additional packages. Use the following command to run the script:
