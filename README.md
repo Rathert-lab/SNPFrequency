@@ -34,7 +34,7 @@ chromB  chromStartB  chromEndB
 ## Output Data
 The file will output a tabular file defining the region, followed by the determined SNP frequency of the respective region:
 ```
-Chromo	Startpos	Stoppos   SNPcount	SNPs/100bp
+Chromo	Startpos	Stoppos	SNPcount	SNPs/100bp
 chromA	chromStartA	chromEndA	SNPcountA	SNPFreqA
 chromB	chromStartB	chromEndB	SNPcountB	SNPFreqB
 chromC	chromStartC	chromEndC	SNPcountC	SNPFreqC
