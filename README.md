@@ -14,7 +14,7 @@ Output files will be generated automatically and saved as input_file_name_counte
 
 ## Input Data
 This script requires a .vcf file as provided by the Galaxy tool FreeBayes, containing all called genetic variants for given regions or a whole genome. As a second input it needs a bed file defining the regions of interest, for which the SNP frequency should be calculated.
-The file with the called genetic variants needs to be generated beforehand by a tool such as FreeBayes, which can be found for example on Galaxy Europe (https://usegalaxy.eu/). These files have extensive headers, marked by ##, following by the interesting part where the genetic variants are define. Example:
+The file with the called genetic variants needs to be generated beforehand by a tool such as FreeBayes, which can be found for example on Galaxy Europe (https://usegalaxy.eu/). These files have extensive headers, marked by ##, followed by the definition of the called genetic variants. Example:
 ```
 ## header
 ## more header
